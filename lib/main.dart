@@ -112,7 +112,12 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
-            const Text('I made some changes here to test on commit in GitHub'),
+            const Text(
+              'I made some changes here to test on commit in GitHub',
+            ),
+            const Text(
+              'Added another line of text',
+            ),
           ],
         ),
       ),
